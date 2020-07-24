@@ -30,11 +30,26 @@ h2 {
     padding-top: 150px;
 }
 
-.container {
+.welcome {
     padding: 100px;
-    padding-left: 180px;
+    padding-left: 250px;
 }
 .mouseclick {
     padding-left: 590px;
     padding-bottom: 40px;
+}
+
+.card {
+    text-align: center;
+    font-size: small;
+    padding-left: 400px;
+    text-emphasis-style: solid;
+    padding-bottom: 100px;
+}
+h3 {
+    font-size: large;
+    text-decoration-style: solid;
+}
+.services {
+    background-image: url(assets/s_image.jpg);
 }

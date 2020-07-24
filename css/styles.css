@@ -1,0 +1,10 @@
+#landing-page {
+    background-image: url(assets/h_img.jpg);
+    background-repeat: no-repeat;
+    
+}
+h1 {
+    font-size: medium;
+    color: antiquewhite;
+    position: relative;
+}

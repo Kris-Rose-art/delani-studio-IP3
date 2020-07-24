@@ -3,21 +3,38 @@
     background-repeat: no-repeat;
     
 }
-h1 {
+h1.first {
     font-size: x-large;
     color: antiquewhite;
     position: relative;
+    padding-left: 300px;
+    padding-top: 5px;
+
+}
+h1.second {
+    font-size: x-large;
+    color: antiquewhite;
+    position: relative;
+    padding-left: 245px;
+    padding-top: 1px;
 }
 h2 {
     font-size: large;
     color: antiquewhite;
     position: relative;
+    padding-top: 2px;
 }
 
 .logo {
-    padding-left: 300px;
+    padding-left: 560px;
+    padding-top: 150px;
 }
+
 .container {
-    padding: 200px;
+    padding: 100px;
+    padding-left: 180px;
 }
+.mouseclick {
+    padding-left: 590px;
+    padding-bottom: 40px;
 }

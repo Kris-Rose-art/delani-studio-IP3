@@ -61,3 +61,12 @@ h3 {
 .what-we-do {
     padding-left: 400px;
 }
+.design {
+    text-align: center;
+    padding-right: 600px;
+}
+.development {
+    text-align: center;
+    padding-right: 300px;
+    align-items: center;
+}

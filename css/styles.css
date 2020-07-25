@@ -52,4 +52,12 @@ h3 {
 }
 .services {
     background-image: url(assets/s_image.jpg);
+    color: antiquewhite;
+    text-align: center;
+}
+.text {
+    padding: 50px;
+}
+.what-we-do {
+    padding-left: 400px;
 }

@@ -76,3 +76,17 @@ h5 {
 .contact-us {
     background-image: url(assets/c_image.jpg);
 }
+h5.contact {
+    text-align: center;
+    color: antiquewhite;
+}
+.card-body {
+    background-image: url(assets/c_image.jpg);
+    text-align: center;
+}
+.name {
+    padding-left: 200px;
+}
+.email {
+    padding-right: 200px;
+}

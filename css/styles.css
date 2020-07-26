@@ -70,3 +70,9 @@ h3 {
     padding-right: 300px;
     align-items: center;
 }
+h5 {
+    text-align: center;
+}
+.contact-us {
+    background-image: url(assets/c_image.jpg);
+}

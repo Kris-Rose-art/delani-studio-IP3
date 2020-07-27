@@ -90,12 +90,17 @@ h5.contact {
 .email {
     padding-right: 200px;
 }
-p.DESIGN {
+.hide {
     display: none;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    width: 700px;
+    transform: translate(-50%);
 }
-p.DEVELOPMENT {
-    display: none;
+@media screen and (max-width: 450px) {
+    .form-cont
 }
-p.PRODUCT-MANAGEMENT {
-    display: none;
-}
+.work4:hover
+
+    

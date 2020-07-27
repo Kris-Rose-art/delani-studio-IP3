@@ -98,9 +98,16 @@ h5.contact {
     width: 700px;
     transform: translate(-50%);
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {}
     .form-cont
 }
-.work4:hover
-
-    
+.column {
+    align-items: center;
+    padding-left: 400px;
+}
+p.end {
+    text-align: center;
+}
+p.year {
+    text-align: center;
+}

@@ -58,15 +58,15 @@ h3 {
 .text {
     padding: 50px;
 }
-.what-we-do {
-    padding-left: 75px;
-}
-.design {
+
+
+
+/* .design {
     padding-left: 59px;
 }
 .development {
-    padding-left: 65px;
-}
+    padding-left: 65px; */
+/* } */
 h5 {
     text-align: center;
 }
@@ -93,26 +93,26 @@ h5.contact {
 p.DESIGN {
     display: none;
     text-align: center;
-    position: relative;
-    max-width: 100%;
-    width: 700px;
-    transform: translate(-50%);
+    /* position: relative; */
+    /* max-width: 100%; */
+    /* width: 700px; */
+    /* transform: translate(-50%); */
 }
 p.DEVELOPMENT {
     display: none;
     text-align: center;
-    position: relative;
+    /* position: relative;
     max-width: 100%;
     width: 700px;
-    transform: translate(-50%); 
+    transform: translate(-50%);  */
 }
 p.PRODUCT-MANAGEMENT {
     display: none;
     text-align: center;
-    position: relative;
+    /* position: relative;
     max-width: 100%;
     width: 700px;
-    transform: translate(-50%); 
+    transform: translate(-50%);  */
 }
 @media screen and (max-width: 450px) {
 

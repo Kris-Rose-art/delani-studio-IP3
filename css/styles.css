@@ -82,12 +82,13 @@ h5.contact {
     text-align: center;
 }
 .name {
-    color: white;
-    box size: width: 30px;
+    padding-left: 200px;
+    padding-bottom: 20px;
 }
 .email {
     padding-right: 200px;
     color: white;
+    padding-bottom: 20px;
 }
 p.DESIGN {
     display: none;
@@ -141,5 +142,8 @@ header {
     padding-right: 15px;
 }
 .icon1 {
-    
+
 }
+ ::placeholder {
+     color: white;
+ }

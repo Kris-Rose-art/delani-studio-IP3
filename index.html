@@ -60,37 +60,38 @@
                         <div class="col-md-4">
                             
                             <div class="design">
-                                <img src="css/assets/design_icon.png">
-                                <header>DESIGN</header>
-                                <div class="hide">
-                                    <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experince.
+                                <div class="icon1">
+                                    <img src="css/assets/design_icon.png">
+                                    <header>DESIGN</header>
+                                </div>
+                                    <p class="DESIGN">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experince.
                                         Throughout your project, our designers create and implementvisual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
                                     </p>
-                                </div>
+                            
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <img src="css/assets/dev_icon.png">
                             <div class="development">
-    
-                                <header>DEVELOPMENT<header>
-                                <div class="hide">
-                                    <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                                <div class="icon2">
+                                    <img src="css/assets/dev_icon.png">
+                                    <header>DEVELOPMENT</header>
+                                </div>
+                                    <p class="DEVELOPMENT">All engineers are fluent in the latest enterprise, mobile and web development technologies.
                                         They collaborate with your team to write, and imrove code on a daily basis, using proven practices such as tes-driven development and pair rogramming.
                                     </p>
-                                </div>
+                                
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <img src="css/assets/product_icon.png">
                             <div class="product-management">
-                
-                                <header>PRODUCT MANAGEMENT</header>
-                                <div class="hide">
-                                    <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
+                                <div class="icon3">
+                                    <img src="css/assets/product_icon.png">
+                                    <header>PRODUCT MANAGEMENT</header>
+                                </div>
+                                    <p class="PRODUCT-MANAGEMENT">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.
                                         This iterative process allows for changes as business requirements evolve.
                                     </p>
-                                </div>
+                            
                             </div>
                         </div>
                     </div>
@@ -99,26 +100,31 @@
                 <h5>PORTFOLIO</h5>
                     <div class="row">
                         <div class="col-md-3">
+
                             <div class="work4">
-                                <img class="w-100" src="css/assets/work4.jpg" alt="work4">
+                                <p class="ptag">design kenya</p>
+                                <img class="w-100" style="padding-bottom: 10px;" src="css/assets/work4.jpg" alt="work4">
                             </div>
                         </div>
                     
                         <div class="col-md-3">
                             <div class="work3">
+                                <p class="ptag">ontario security</p>
                                 <img class="w-100" src="css/assets/work3.jpg">
                             </div>
                         </div>
                         
                         <div class="col-md-3">
                             <div class="work2">
+                                <p class="ptag">colour orange</p>
                                 <img class="w-100" src="css/assets/work2.jpg">
                             </div>
                         </div>
         
                         <div class="col-md-3">
                             <div class="work1">
-                                <img class="w-100" src="css/assets/work1.jpg">
+                                <p class="ptag">Jim Carrey</p>
+                                <img class="w-100" style="padding-bottom: 10px;" src="css/assets/work1.jpg">
                             </div>
 
                         </div>
@@ -126,22 +132,26 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="work5">
-                                <img class="w-100" src="css/assets/work5.jpg">
+                                <p class="ptag">good day</p>
+                                <img class="w-100" style="padding-bottom: 10px;" src="css/assets/work5.jpg">
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="work6">
-                                <img class="w-100" src="css/assets/work6.jpg">
+                                <p class="ptag">mobile application</p>
+                                <img class="w-100" style="padding-bottom: 10px;" src="css/assets/work6.jpg">
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="work7">
-                                <img class="w-100" src="css/assets/work7.jpg">
+                                <p class="ptag">burned mock-up</p>
+                                <img class="w-100" style="padding-bottom: 10px;" src="css/assets/work7.jpg">
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="work8">
-                                <img class="w-100" src="css/assets/work8.jpg">
+                                <p class="ptag">giraffe restaurant</p>
+                                <img class="w-100" style="padding-bottom: 10px;" src="css/assets/work8.jpg">
                             </div>
                         </div>
 
@@ -154,18 +164,18 @@
         <div class="contact-us">
             <div class="card-body">
                 <h5 class="contact">CONTACT US</h5> -->
-                <form>
+                <form onsubmit="return submitForm(event)">
                     <div class="row">
                         <div class="col-md-6">
                     
                             <div class="name">
-                                <textarea name="name" id="name" rows="1" cols="30" placeholder="Name..."></textarea>
+                                <input type="text" id="name" placeholder="Name...">
                                 
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="email">
-                                <textarea name="email" inputmode="email" id="email" rows="1" cols="30" placeholder="Email..."></textarea>
+                                <input type="email" id="email" placeholder="Email...">
                             </div>
                         </div>   
                     </div>
@@ -173,6 +183,7 @@
                         <textarea name="message" id="message"  rows="10" cols="70" placeholder="Your message here..."></textarea>
                         
                     </div>
+                    <input type="submit" id="submit">
                 </form>
             
             </div>
@@ -195,6 +206,7 @@
             <p class="year">2019</p>
         </div>
             
-
+        
+       
     </body>
 </html>

@@ -59,16 +59,13 @@ h3 {
     padding: 50px;
 }
 .what-we-do {
-    padding-left: 400px;
+    padding-left: 75px;
 }
 .design {
-    text-align: center;
-    padding-right: 600px;
+    padding-left: 59px;
 }
 .development {
-    text-align: center;
-    padding-right: 300px;
-    align-items: center;
+    padding-left: 65px;
 }
 h5 {
     text-align: center;
@@ -85,12 +82,14 @@ h5.contact {
     text-align: center;
 }
 .name {
-    padding-left: 200px;
+    color: white;
+    box size: width: 30px;
 }
 .email {
     padding-right: 200px;
+    color: white;
 }
-.hide {
+p.DESIGN {
     display: none;
     text-align: center;
     position: relative;
@@ -98,9 +97,27 @@ h5.contact {
     width: 700px;
     transform: translate(-50%);
 }
-@media screen and (max-width: 450px) {}
-    .form-cont
+p.DEVELOPMENT {
+    display: none;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    width: 700px;
+    transform: translate(-50%); 
 }
+p.PRODUCT-MANAGEMENT {
+    display: none;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    width: 700px;
+    transform: translate(-50%); 
+}
+@media screen and (max-width: 450px) {
+
+}
+    
+
 .column {
     align-items: center;
     padding-left: 400px;
@@ -110,4 +127,16 @@ p.end {
 }
 p.year {
     text-align: center;
+}
+input[type=text], input[type=email], textarea[name=message] {
+    background: transparent;
+    color: white;
+}
+p.ptag {
+    display: none;
+}
+header {
+    text-align: center;
+    text-decoration: solid;
+    padding-right: 15px;
 }

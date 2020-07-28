@@ -136,14 +136,10 @@ input[type=text], input[type=email], textarea[name=message] {
 p.ptag {
     display: none;
 }
-header {
-    text-align: center;
-    text-decoration: solid;
-    padding-right: 15px;
-}
-.icon1 {
 
-}
+
+
+
  ::placeholder {
      color: white;
  }

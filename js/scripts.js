@@ -47,7 +47,7 @@ function submitForm(event) {
 } 
 // Adding the hover effect.
 $(document).ready(function() {
-    $(".work4").hover(function() {
+    $(".work").hover(function() {
         $(".ptag").fadeToggle(2500);
     })
 })
